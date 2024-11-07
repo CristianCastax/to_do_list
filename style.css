@@ -1,0 +1,54 @@
+/* Modo Claro */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  body.light-mode .navbar {
+    background-color: #e9ecef !important;
+    color: #343a40;
+  }
+
+  body.light-mode .navbar-brand{
+    color: #343a40;
+  }
+
+  body.light-mode #home{
+    color: #343a40;
+  }
+
+  body.light-mode .btn-outline-light {
+    color: #343a40;
+    border-color: #343a40;
+  }
+  
+  body.light-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #000;
+  }
+  
+  body.light-mode .modal-content {
+    background-color: #ffffff;
+    color: #343a40;
+  }
+  
+  body.light-mode .alert {
+    color: #343a40;
+  }
+
+
+/* Modo Claro */
+body.light-mode .table {
+  color: #343a40; /* Color oscuro para texto en modo claro */
+}
+
+/* Modo Oscuro */
+body.dark-mode .table {
+  color: #f8f9fa; /* Color claro para texto en modo oscuro */
+}
+body.light-mode .table td, 
+body.light-mode .table th {
+    color: #343a40; /* Asegura que el texto sea oscuro en el modo claro */
+}
+
+  
